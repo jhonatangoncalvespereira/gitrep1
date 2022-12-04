@@ -1,0 +1,146 @@
+configuração de usuário
+instale o Git
+https://git-scm.com/
+
+abra o Git Bash no seu diretório só na primeira vez
+
+
+_________________________________________________________________________-
+
+CRIANDO UM REPOSITÓRIO LOCA
+git init 
+inicializa um repositório vazio
+ git config --global init.defaultBranch main
+mudar o nome da branch de master para main
+aí precisa startar o repositório, excluindo e refazendo
+e vice-versa
+(master já significa que identifica aquele diretório como repositório)
+
+ ADICIONANDO MUDANÇAS
+git add.
+staged - preparado
+
+ removendo um arquivo do repositório
+git -rm cached <arquivo>
+unstaged
+
+ salvando mudanças no repositório do git
+git commit - m “mensagem da versão”
+unmodififield 
+
+ciclo de vida do arquivo
+
+
+
+git diff
+mostra as modificações feitas
+
+
+git logs
+mostra histórico de comments
+git logs –oneline
+git log --stat
+git log --shortstat
+
+
+git commit --amend -m” ” <arquivo>
+cria um commit por cima corrigindo
+
+
+Usar commits anteriores
+veja as versões anteriores
+-	git log --oneline
+- 	git checkout <número da versão>
+- 	git checkout master
+		versão atual
+
+
+
+DESFAZENDO MUDANÇAS
+
+
+
+IGNORANDO ARQUIVOS
+cria txt com a extesão .gitignore e dentro dele c pões
+
+
+
+
+IGNORANDO UM ARQUIVO JÁ RASTRREADO
+
+
+
+CLONE DE REPOSITÓRIO LOCAL e remoto
+
+
+
+
+associar repositório local a um repositório remoto
+
+
+
+origin é um referência a um endereço remoto
+origin é uma nomeclatura mutável
+e também pode apontar para vários repositórios
+
+
+
+
+
+
+
+
+
+Se o nome do meu repositório mudar?
+use o git remote set-url origin novaUrl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMO SALVAR MUDANÇAS REMOTAS
+PRIMEIRO CLONE LOCAL E DEPOIS COMMIT LOCAL
+
+
+
+depois push na origin, ele pede seu login do GitHub e aí é sucesso
+
+
+
+git pull pega versão mais recente
+
+
+
+
+
+criando Branchs
+
+git branch nome
+git checkout nomedabranch
+muda para Branch que queres
+git checkout -b nomeBranch
+cria a branch e já vai pra ela
+ou use tbm git switch nomeBranch
+git switch -c BranchACriar
+
+
